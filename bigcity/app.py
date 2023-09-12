@@ -29,6 +29,9 @@ def welcome():
         f"/api/v1.0/stations<br/>"
         f"/api/v1.0/tobs<br/>"
     )
+##================================================
+##FROM THIS POINT FORWARD THE CODE IS NOT CORRECT - IT WILL BE SUBMITTED AGAIN
+
 @app.route("/api/v1.0/precipitation")
 def precipitation():
     session = Session(engine)
